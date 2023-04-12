@@ -1,0 +1,18 @@
+.mySwiper {
+    width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+    .mySwiper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+.mentor-card {
+    width: 16rem !important;
+}
+
+.swiper-slide {
+    margin-top: 20px; /* adjust the value as per your requirement */
+  }

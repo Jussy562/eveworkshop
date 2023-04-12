@@ -1,0 +1,9 @@
+.home-workshop-intro {
+    width: 40% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .home-workshop-intro {
+        width: 100% !important;
+    }
+}
