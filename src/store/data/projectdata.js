@@ -1,4 +1,4 @@
-import dotless from '../../assets/images/projects/dotless.jpg';
+import dotless from "../../assets/images/projects/dotless.jpg";
 import metabnb from  "../../assets/images/projects/metabnb.jpg";
 import checkout from "../../assets/images/projects/checkout.jpg";
 import userDash from "../../assets/images/projects/userDash.jpg";
