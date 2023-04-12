@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonPrimary from '../button/button'
 import create from '../../assets/images/create.svg'
-import dotless from '../../assets/images/projects/dotless.jpg';
+
 
 function Hero() {
   return (
