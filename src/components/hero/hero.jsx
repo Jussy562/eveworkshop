@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonPrimary from '../button/button'
-import create from '../../assets/images/create.svg'
+import create from '/assets/create.svg'
+
 
 
 function Hero() {

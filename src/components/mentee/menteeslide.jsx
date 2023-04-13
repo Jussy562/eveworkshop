@@ -19,8 +19,8 @@ function MenteeSlide() {
   return (
     <div className='flex flex-col justify-center bg-none pt-10 md:pt-0'>
         <div className='home-workshop-intro mb-4'>
-                <h2 className='text-2xl md:text-4xl font-bold text-[#e0b0ff]'>Experienced Engineers and Managers offer mentorship support to women in our workshop </h2>
-                <h4 className='text-2xl text-black'>Mentors of the month:</h4>
+                <h2 className='text-2xl md:text-4xl font-bold text-[#e0b0ff]'>Women in our workshop are building for the future.  </h2>
+                <h4 className='text-2xl text-black'>Tech Sis of the month:</h4>
         </div>
 
         <div className='eve-slide pt-18'> 
