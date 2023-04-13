@@ -13,7 +13,7 @@ import Navbar from './components/navbar/navbar'
 function App() {
   
   return (
-    <div className=" h-full">
+    <div className="text-black h-full">
       <Navbar />
       <Home />
       <Footer />

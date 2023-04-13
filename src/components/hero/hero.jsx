@@ -9,7 +9,7 @@ function Hero() {
     <div className='hero mt-24 pb-8'>
         <div className='flex flex-col-reverse md:flex-row w-full md:items-center'>
             <div className='w-full md:w-1/2'>
-                <div className='mb-7 hero-text'>
+                <div className='mb-7 hero-text dark:text-black'>
                   <h3 className='text-4xl mb-4'>Empowering women to <span className='text-[#e0b0ff]'>build </span>
                     for the future.</h3>
                   <p><span className='text-[#e0b0ff]'>eve</span><span>Workshop</span> is the community for women to 
