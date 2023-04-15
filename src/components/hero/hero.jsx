@@ -13,9 +13,9 @@ function Hero() {
                 <div className='mb-7 hero-text dark:text-black'>
                   <h3 className='text-4xl mb-4'>Empowering women to <span className='text-[#e0b0ff]'>build </span>
                     for the future.</h3>
-                  <p><span className='text-[#e0b0ff]'>eve</span><span>Workshop</span> is the community for women to 
-                  showcase their projcts and get the support they to enable
-                  them launch a product.</p>
+                  <p className='text-xl md:text-2xl text-black'><span className='text-[#e0b0ff]'>eve</span><span>Workshop</span> is the community for women to 
+                  showcase their projcts and get the support they need
+                  to launch a product.</p>
                   <p>Invest in a project today</p>
                 </div>
                 <div>
