@@ -20,7 +20,7 @@ function Hero() {
                 </div>
                 <div>
                     <Link to='/login'>
-                      <ButtonPrimary url="/" name="Invest Today" />
+                      <ButtonPrimary name="Invest Today" />
                     </Link>
                 </div>
             </div>

@@ -53,7 +53,7 @@ function    Navbar() {
                     </li>
                     </ul>
                     <Link to='/login' onClick={toggleNav}>
-                        <ButtonPrimary url="/" name="Get Started"/>
+                        <ButtonPrimary  name="Get Started"/>
                     </Link>
                 </div>
                 

@@ -22,10 +22,11 @@ function Home() {
         
         </section>
         <section className='py-12 md:py-24 px-6 md:px-12 home-workshop'>
-            <Routes>
+            <Workshop />
+            {/* <Routes>
               <Route path='/' exact element={<Workshop />} />
               <Route path='/projectDetails/:name' exact element={<ProjectDetails />} />
-            </Routes>
+            </Routes> */}
         </section>
         <section className=' py-12 md:py-24 px-6 md:px-12 bg-[#f4e5f2] home-mentee'>
             

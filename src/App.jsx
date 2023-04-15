@@ -15,6 +15,7 @@ import MentorList from './pages/mentorspage.jsx/mentorList'
 import Community from './pages/community/community'
 import About from './pages/about/about'
 import Login from './pages/login/login'
+import ProjectDetails from './components/workshop/projectDetails'
 
 function App() {
   
@@ -27,9 +28,12 @@ function App() {
             <Navbar />
             <Routes>
             
-                <Route path='/*' element={ <Home /> } />
-                <Route path="/login" element={ <Login /> } />
+                <Route path='/*' exact element={ <Home /> } />
+                <Route path="/login" exact element={ <Login /> } />
+                <Route>
                 <Route path="/workshopPage" element={ <Eveworkshop /> } />
+                <Route path='/projectDetails/:name' exact element={<ProjectDetails />} />
+                </Route>
                 <Route path="/mentorList" element={ <MentorList /> } />
                 <Route path="/community" element={ <Community /> } />
                 <Route path="/about" element={ <About /> } />
