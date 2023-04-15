@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
-    <div className='hero mt-24 pb-8'>
+    <div className='hero pb-8'>
         <div className='flex flex-col-reverse md:flex-row w-full md:items-center'>
             <div className='w-full md:w-1/2'>
                 <div className='mb-7 hero-text dark:text-black'>
