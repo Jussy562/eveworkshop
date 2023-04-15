@@ -25,7 +25,7 @@ function ProjectDetails() {
                     </Link>
                 </div>
                 <div>
-                    <Link to='/'>
+                    <Link to='/login'>
                         <ButtonPrimary url="/" name="Invest Today" />
                     </Link>
                 </div>
