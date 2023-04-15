@@ -25,7 +25,7 @@ function    Navbar() {
                     </button>
                 </div>
                 <div class={`items-center justify-between w-full md:flex md:flex-row md:w-2/3 md:order-1 ${open ? 'flex flex-col' : 'hidden'}`} id="navbar-cta">
-                    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border-none  rounded-lg bg-none md:flex-row md:space-x-8 md:mt-0  md:bg-none dark:bg-gray-800 md:dark:bg-none dark:border-none">
+                    <ul class="flex flex-col font-medium p-4  md:p-0 mt-4 mb-5 md:mb-0 border-none  rounded-lg bg-none md:flex-row md:space-x-8 md:mt-0  md:bg-none dark:bg-none md:dark:bg-none dark:border-none">
                     <li onClick={toggleNav}>
                         <Link to="/">
                             <a href="#" class="transition ease-in-out delay-100 block py-2 pl-3 pr-4 text-[#e0b0ff] bg-nonerounded md:bg-none tw-ring-color-none md:text-[#e0b0ff] md:p-0 md:dark:text-[#e0b0ff] hover:text-[#d08ffb] " >Home</a>

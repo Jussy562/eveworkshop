@@ -7,8 +7,8 @@ function ProjectDetails() {
     const { state } = useLocation();
     const { project } = state || {};
   return (
-    <div className='flex flex-col justify-center items-center bg-slate-300 py-10'>
-        <div className='w-2/3'>
+    <div className='flex flex-col justify-center items-center bg-slate-300 py-5 md:py-10 '>
+        <div className='w-full md:w-2/3'>
             <div className='w-full mb-6 '>
                 <img src={project.image} alt='project' />
 
