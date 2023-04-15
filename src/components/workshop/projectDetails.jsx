@@ -20,10 +20,14 @@ function ProjectDetails() {
             </div>
             <div className='w-full flex flex-row justify-between'>
                 <div>
-                    <ButtonSec url="/" name="View Demo" />
+                    <Link to='/'>
+                        <ButtonSec url="/" name="View Demo" />
+                    </Link>
                 </div>
                 <div>
-                    <ButtonPrimary url="/" name="Invest Today" />
+                    <Link to='/'>
+                        <ButtonPrimary url="/" name="Invest Today" />
+                    </Link>
                 </div>
             </div>
            
