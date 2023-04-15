@@ -12,8 +12,8 @@ function Workshop() {
         </div>
         <div className='flex flex-row flex-wrap gap-6 md:gap-16 mt-12'>
             {
-                projectsFile.map((item) => (
-                    <ProjectList key={item.id} item={item} />
+                projectsFile.slice(0, 4).map((item) => (
+                    <ProjectList key={item.id} project={item} />
                 )
                 )
             }

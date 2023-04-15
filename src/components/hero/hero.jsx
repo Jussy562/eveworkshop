@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonPrimary from '../button/button'
 import create from '/assets/create.svg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -18,7 +19,9 @@ function Hero() {
                   <p>Invest in a project today</p>
                 </div>
                 <div>
-                    <ButtonPrimary url="/" name="Invest Today" />
+                    <Link to='/login'>
+                      <ButtonPrimary url="/" name="Invest Today" />
+                    </Link>
                 </div>
             </div>
             <div className='w-full md:w-1/2'>

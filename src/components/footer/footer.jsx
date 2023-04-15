@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -32,19 +33,29 @@ function Footer() {
                             <div className='flex md:justify-center'>
                                 <ul className='text-xl text-gray-300 '>
                                     <li>
-                                        <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Home</a>
+                                        <Link to="/">
+                                            <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Home</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>About</a>
+                                        <Link to='about'>
+                                            <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>About</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Workshop</a>
+                                        <Link to='workshopPage'>
+                                            <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Workshop</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Mentors</a>
+                                        <Link to='mentorList'>
+                                            <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Mentors</a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Community</a>
+                                        <Link to='community'>
+                                            <a href='/' className='text-[#e0b0ff] hover:text-[#d08ffb]'>Community</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

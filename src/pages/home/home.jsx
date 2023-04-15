@@ -4,6 +4,9 @@ import Hero from '../../components/hero/hero'
 import Workshop from '../../components/workshop/workshop'
 import MentorSlide from '../../components/mentorship/mentorSlide'
 import MenteeSlide from '../../components/mentee/menteeslide'
+import { Route, Routes } from 'react-router-dom'
+import ProjectDetails from '../../components/workshop/projectDetails'
+
 
 function Home() {
   return (
@@ -19,7 +22,10 @@ function Home() {
         
         </section>
         <section className='py-12 md:py-24 px-6 md:px-12 home-workshop'>
-            <Workshop />
+            <Routes>
+              <Route path='/' exact element={<Workshop />} />
+              <Route path='/projectDetails/:name' exact element={<ProjectDetails />} />
+            </Routes>
         </section>
         <section className=' py-12 md:py-24 px-6 md:px-12 bg-[#f4e5f2] home-mentee'>
             

@@ -1,0 +1,13 @@
+.eveMentor {
+    width: 100% !important;
+}
+
+.eve-mentor {
+    width: 50% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .eve-mentor {
+        width: 100% !important;
+    }
+}
